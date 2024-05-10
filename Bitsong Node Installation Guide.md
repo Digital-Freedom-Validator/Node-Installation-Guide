@@ -1,3 +1,3 @@
-# Руководство по установке узла Bitsong
-##### ID цепочки: битсонг-2b | Текущая версия узла: v0.15.0
+# Bitsong Node Installation Guide
+##### Chain ID: bitsong-2b | Current Node Version: v0.15.0
 
