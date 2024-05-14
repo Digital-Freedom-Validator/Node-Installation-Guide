@@ -3,7 +3,6 @@
 
 Официальные документы по установке и настройке ноды https://docs.bitsong.io/blockchain/install-go-bitsong
 
-soon...
 
 !! Перед тем как начать установку узла необходимо [подготовить систему](https://github.com/Digital-Freedom-Validator/Node-Installation-Guide/blob/main/!%20Preparing%20the%20system%20by%20reinstalling%20the%20node_ru.md)
 
@@ -152,4 +151,4 @@ soon...
    ```
 
    ## Создание валидатора
-   
+   soon...
