@@ -119,7 +119,7 @@ soon...
    ```
 7. Синхронизируем узел с текущим состоянием блокчейна
    ```
-   sudo systemctl stop bitsong
+   sudo systemctl stop bitsongd
 
    SNAP_RPC="https://rpc.bitsong.forbole.com:443"
    SNAP_RPC2="https://bitsong.stakesystems.io:2053"
@@ -143,9 +143,9 @@ soon...
 
    mv $HOME/.bitsongd/priv_validator_state.json.backup $HOME/.bitsongd/data/priv_validator_state.json
 
-   sudo systemctl start bitsong
+   sudo systemctl start bitsongd
 
-   sudo journalctl -u bitsong -f
+   sudo journalctl -u bitsongd -f
 8. Проверяем высоту сети  
    ```
    bitsongd status 2>&1 | jq ."SyncInfo"."latest_block_height"
